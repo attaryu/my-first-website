@@ -1,0 +1,243 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+}	
+
+
+/*oke lets go*/
+body {
+	background-image: url(../Wallpaper/school.png);
+	font: 16px/28px arial, sans-serif;
+	color: #454545;
+
+}
+
+.bar {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 45px;
+	background-color: #454545;
+	z-index: 9999;
+}
+
+.paper {
+	width: 850px;
+	background-color: white;
+	margin: 65px auto;
+	position: relative;
+}
+
+.instagram {
+	background-image: url(../Wallpaper/ribbon.png);
+	display: inline-block;
+	height: 100px;
+	width: 100px;
+	text-indent: -9999px;
+	position: absolute;
+	top: 0px;
+	left: 650px;
+	right: 0px;
+} 
+
+/*header*/
+.header {
+	padding: 15px;
+}
+
+.logo {
+	font-weight: bold;
+	font-size: 35px;
+}
+
+.menu {
+	display: inline-block;
+	font-size: 12px;
+	margin: 13px 0 0 -5px;
+}
+
+.header ul li a {
+	text-decoration: none;
+	padding: 7px;
+	color: #454545;
+	border-radius: 5px;
+}
+
+.header ul li a:hover {
+	color: white;
+	background-color: #454545;
+}
+
+.header ul li a:active {
+	background-color: #66C7FF;
+}
+
+/*image*/
+.img {
+	height: 300px;
+	background-image: url(../Wallpaper/code.jpg);
+	background-size: cover;
+}
+
+/*sideleft*/
+
+/*main*/
+.main {
+	padding: 20px 10px 10px 10px;
+	box-sizing: border-box;
+	float: left;
+	width: 500px;
+}
+
+.main .sub {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.main .meta {
+	font-size: 10px;
+	margin-top: -5px;
+	padding-bottom: 15px;
+}
+
+.main p a {
+	text-decoration: none;
+	color: #FC0D8D;
+}
+
+.main p a:hover {
+	text-decoration: underline;
+	color: #82385F;
+}
+
+.main .pg1, .pg2, .pg3 {
+	font-size: 14px;
+}
+
+/*side right*/
+.sideright {
+	width: 250px;
+	float: right;
+	padding-right: 30px; 
+	padding-top: 15px
+}
+
+.profil {
+	font-size: 20px;
+	font-family: sans-serif;
+	font-weight: bold;
+	padding: 5px 5px 5px 0px;
+	font-color: lightblue;
+}
+
+.sideright .img {
+	background-color: black;
+	height: 100px;	
+	width: 100px;
+	float: left;
+	margin-right: 10px;
+}
+
+.des {
+	font: 10px/15px arial, sans-serif;	
+}
+
+.sideright ul {
+	margin-top: 30px;
+}
+.sideright li {
+	padding-top: 5px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.sideright ul .fb {
+	font-color: #0D68B8;
+}
+
+/*footer*/
+.footer {
+	background-color: #454545;
+}
+
+.copy {
+	color: white;
+	font-size: 10px;
+	text-align: center;
+	padding: 5px;
+}
+
+.copy:hover {
+	cursor: default;
+}
+
+.footer p .special:hover {
+	color: lightblue;
+	text-decoration: underline;
+	cursor: default;
+}
+
+
+
+
+
+
+
+
+
+/*clearfix*/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
